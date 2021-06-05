@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3school page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<style>
+   
+   *{
+        box-sizing: border-box;
+        font-family: raleway;
+    }
+    
+
+/* top heading */
+.heading{
+    box-sizing:border-box;
+  /* border:1px solid black; */
+    margin-bottom:0px;
+
+}
+
+
+.para1{
+    box-sizing:border-box;
+    display: inline-block;
+    /* border: 1px solid red; */
+    background-color: green;
+    width:100%;
+    margin:0px 0px 30px 0px;
+    padding: 30px;
+    border-radius: 4px;
+}
+/* log in */
+h1.centerclass{
+   
+font-weight: normal;
+}
+
+/* h1 and p tag's class  */
+.centerclass{
+
+    text-align: center;
+}
+
+
+/* input  */
+input[type="text"],
+input[type="password"]{
+    width:100%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+}
+
+
+
+input[type="submit"]{
+    background-color:#2b7724;
+    margin-top: 20px;
+    padding:18px;
+    color:white;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+ cursor: pointer;
+ width:100%;    
+}
+
+   input[type="submit"]:hover{
+      background-color: #265831;
+             }
+/* div container */
+div.div1{
+    max-width: 700px; 
+    height: 520px; 
+     margin: auto;
+     padding: 25px;
+     /* border: 3px solid #73AD21; */
+   background-color: rgb(228, 228, 228);
+}
+
+/* body */
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    font-size:17px;
+    padding:8px;
+
+}
+
+p a{
+
+    float: right;
+
+}
+
+/* placeholer */
+.input-txt{
+    font-size: 16px;
+}
+.second-a{
+    /* color:rgb(163, 159, 159); */
+    margin-top: 5em;
+    font-family: Raleway,sans-serif ;
+    text-align: center;
+    font-size: 13.5px;
+}
+
+
+.second-b{
+    /* color:rgb(163, 159, 159); */
+    font-family: Raleway,sans-serif ;
+font-size: 12px;
+text-align:center;
+}
+
+</style>
+<body>
+     <header>  <!--style="border:1px solid red;" -->
+        <h1 class="heading"> w3school.com</h1>
+        <ul class="para1"></ul>
+    </header>
+    
+    <main>
+        
+<div class="div1">
+    <!-- <form style="margin: 5px 10px;">  -->
+        <form>  
+        <h1 class="centerclass"> LOG IN</h1>
+        <p class="centerclass"> why log in?</p>
+        <p > <b>User Name </b> <input type="text" class="input-txt" name="name" placeholder="enter a valid email address" title="please fill out this field"> </p>
+        <P> <b>password </b><input type="password" class="input-txt" name="password" placeholder="enter password" title="please fill out this field"></P>
+        <input type="submit" value="LOG IN">
+      <p style="padding-left:68.5%;"> New user? <a href="#sighup" class="signup" class="first-a"> sign up for free</a> </p>
+      <p></p>
+
+      <p><a href="#forgetpassword" class="password"  style="float: left;"> forget password?</a> </p>
+          
+    </form>
+</div>
+   </main>
+<footer>
+    <div>
+        <p class="second-a">Any suggestions? We are always looking for improvements, please don't hesitate to give us feedback about the login pages at login@w3schools.com
+       </p>
+       <p class="second-b">W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2021 by Refsnes Data. All Rights Reserved. <br>
+        Powered by W3.CSS.
+        
+       </p>
+    </div>
+</footer> 
+
+</body>
+</html>
